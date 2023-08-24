@@ -1,0 +1,114 @@
+.background-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.card-container {
+    width: 40%;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.line {
+    height: 1px;
+    background: #0c0c0c;
+    width: 29%;
+    margin: 5px;
+}
+
+.main-heading {
+    text-align: center;
+    color: red;
+    margin: 10px;
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pair-container {
+    padding: 10px;
+}
+
+.two-pairs-container {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.offer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-btn {
+    width: 100%;
+    background-color: rgb(240, 42, 42);
+    color: white;
+    border-width: 0px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.free-description {
+    color: rgb(240, 42, 42);
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .card-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main-heading {
+        text-align: center;
+        color: red;
+        font-size: 20px;
+    }
+
+    .line {
+        height: 1px;
+        background: #0c0c0c;
+        width: 20%;
+        margin: 5px;
+    }
+}
