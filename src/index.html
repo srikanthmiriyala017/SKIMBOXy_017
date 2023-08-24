@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Buttons Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-container">
+        <div class="card-container">
+            <div class="top-section">
+                <div class="line"></div>
+                <h1 class="main-heading">Bundle & Save</h1>
+                <div class="line"></div>
+            </div>
+            <div class="options-container">
+                <label>
+                    <input type="radio" name="pairs" value="1">
+                    <div class="details-container">
+                        <div class="pair-container">
+                            <p>1 Pair</p>
+                            <p>DKK 195.00</p>
+                        </div>
+                        <div class="offer-container">
+                            <p>50% OFF</p>
+                        </div>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="pairs" value="2">
+                    <div class="two-pairs-container">
+                        <div class="details-container">
+                            <div class="pair-container">
+                                <p>2 Pairs</p>
+                                <p>DKK 345.00</p>
+                            </div>
+                            <div class="offer-container">
+                                <p>40% OFF</p>
+                            </div>
+                        </div>
+
+                        <table>
+                            <tr>
+                                <th>Size</th>
+                                <th>Color</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select>
+                                        <option class="choose" value="small">Small</option>
+                                        <option class="choose" value="medium">Medium</option>
+                                        <option class="choose" value="large">Large</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select>
+                                        <option class="choose" value="red">Red</option>
+                                        <option class="choose" value="green">Green</option>
+                                        <option class="choose" value="blue">Blue</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select>
+                                        <option class="choose" value="small">Small</option>
+                                        <option class="choose" value="medium">Medium</option>
+                                        <option class="choose" value="large">Large</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select>
+                                        <option class="choose" value="red">Red</option>
+                                        <option class="choose" value="green">Green</option>
+                                        <option class="choose" value="blue">Blue</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </label>
+
+                <label>
+                    <input type="radio" name="pairs" value="3">
+                    <div class="details-container">
+                        <div class="pair-container">
+                            <p>3 Pairs</p>
+                            <p>DKK 528.00</p>
+                        </div>
+                        <div class="offer-container">
+                            <p>60% OFF</p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+            <div class="bottom-section">
+                <div>
+                    <p class="free-description">Free 2 Day Shipping</p>
+                </div>
+                <div>
+                    <p>Total: DKK <span id="totalAmount">0</span></p>
+                </div>
+            </div>
+            <button class="add-btn">+ Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
